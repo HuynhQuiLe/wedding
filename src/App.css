@@ -1,0 +1,10 @@
+.carousel-prev:before,
+.carousel-next:before {
+  background-image: url("./assets/white-arrow-png-41963.png") !important;
+  width: 40px !important;
+  height: 40px !important;
+}
+
+.carousel-prev:before {
+  transform: rotate(180deg);
+}
